@@ -1,0 +1,38 @@
+.formHeading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .productList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .productItem {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .productName {
+    color: #007bff;
+  }
+  
+  .imageLabel {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .imageContainer {
+    margin: 10px 0;
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Add more styling as needed */
+  

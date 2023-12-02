@@ -1,0 +1,74 @@
+/* ProductList.css */
+
+.product-list {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three containers in one row */
+    gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center; /* Center the content within each container */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05); /* Scale up the container slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Add transition for image hover effect */
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1); /* Scale up the image slightly on hover */
+  }
+  
+  .product-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-description,
+  .product-specific-info {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .product-mrp,
+  .product-sp {
+    margin-top: 5px;
+    margin-right: 100px;
+    padding: 1px 1px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .add-button {
+    margin-top: -50px;
+    margin-left: 80px;
+    padding: 10px 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: grey;
+  }
